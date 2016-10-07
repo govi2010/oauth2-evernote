@@ -1,0 +1,28 @@
+{
+  "name": "govi2010/oauth2-evernote",
+  "description": "Oauth2 Client For Evernote",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Govinda Alwani",
+      "email": "govi2010@gmail.com"
+    }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "evernote"
+  ],
+  "require": {
+    "league/oauth2-client": "^1.4",
+    "evernote/evernote": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "League\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
